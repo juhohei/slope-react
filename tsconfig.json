@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "allowUnreachableCode": false,
+    "declaration": true,
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "outDir": "./dist",
+    "removeComments": true,
+    "target": "es2015"
+  },
+  "include": [
+    "src/*.ts"
+  ],
+  "exclude": [
+    "node_modules/"
+  ]
+}

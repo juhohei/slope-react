@@ -1,0 +1,34 @@
+{
+  "name": "slope-react",
+  "version": "0.1.0",
+  "description": "",
+  "main": "./dist/index",
+  "types": "./dist/index",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "lint": "tslint -c tslint.json index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juhohei/slope.git"
+  },
+  "author": "Juho Heinisuo <juho.heinisuo@iki.fi>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juhohei/slope/issues"
+  },
+  "homepage": "https://github.com/juhohei/slope#readme",
+  "dependencies": {
+    "react": "15.4.2"
+  },
+  "devDependencies": {
+    "@types/react": "15.0.21",
+    "tslint": "5.0.0",
+    "typescript": "2.2.2"
+  },
+  "files": [
+    "LICENSE",
+    "dist",
+    "index.d.ts"
+  ]
+}
