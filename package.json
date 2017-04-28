@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/juhohei/slope.git"
+    "url": "git+https://github.com/juhohei/slope-react.git"
   },
   "author": "Juho Heinisuo <juho.heinisuo@iki.fi>",
   "license": "MIT",
@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/juhohei/slope#readme",
   "dependencies": {
-    "react": "15.4.2"
+    "react": "15.4.2",
+    "slope": "0.1.0"
   },
   "devDependencies": {
     "@types/react": "15.0.21",
@@ -28,7 +29,6 @@
   },
   "files": [
     "LICENSE",
-    "dist",
-    "index.d.ts"
+    "dist"
   ]
 }
