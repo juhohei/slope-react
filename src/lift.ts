@@ -21,7 +21,7 @@ class Observable<T> extends React.Component<Props<T>, State<T>>{
   componentWillMount () {
     this.unsubscribe = this.props.stream(
       value => this.setState({value}),
-      () => this.unsubscribe()
+      () => this.unsubscribe && this.unsubscribe()
     )
   }
 
